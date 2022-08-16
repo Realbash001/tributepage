@@ -1,0 +1,86 @@
+body {
+background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./images/img-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#main {
+    max-width: 1280px;
+    max-height: 100%;
+    margin: 30px auto;
+    padding: 15px;
+    background: rgb(250, 254, 255);
+        background: linear-gradient(108deg, rgba(250, 254, 255, 0.4) 0%, rgba(238, 245, 253, 0.4) 82%);
+    
+    border-radius: 10;}
+
+    #title {
+  text-align: center;
+  font-size: 50px;
+    }
+
+        #img-div {
+            max-width: 200px;
+            margin: 0 auto;
+            padding: 5px;
+            background-color: #fafeff66;
+            border-radius: 5%;
+            
+        }
+        #img-div:hover{
+                transform:scale(1.5);
+                transition-duration: 2s
+        }
+                #image {
+                    display: block;
+                    max-width: 100%;
+                    padding-bottom: 10px;
+                }
+                                #tribute-info {
+                                    max-width: 600px;
+                                    margin: 0 auto;
+                                }
+
+    #tribute-info > ul li{
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-decoration: underline ;
+    text-transform: capitalize;
+    font-weight:bold ;
+    text-decoration: overline;
+   
+}
+
+#tribute-info > p{
+    margin-bottom: 10px;
+        line-height: 30px;
+        text-align: center;
+        font-size: medium;
+        text-emphasis-color:#3C393B ;
+}
+
+        #tribute-info > h3 {
+            text-align: center;
+        }
+        h5{
+            text-align: center;
+            text-decoration: none;
+            
+        }
+        a{
+            text-emphasis-color: blue;
+            text-decoration: none;
+        }
+        i{
+            color: red;
+        }
+        h6{
+            text-align: center;
+            line-height: 50px;
+            font-style: italic;
+        }
